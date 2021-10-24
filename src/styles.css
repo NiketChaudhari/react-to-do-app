@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  margin: 0px;
+  margin-top: 50px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w");
+}
+
+.main_div {
+  width: 520px;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.search_div {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.input_tag {
+  height: 40px;
+  width: 90%;
+  margin-right: 2px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(210, 200, 200);
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+}
+
+.input_tag::placeholder {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.add_button_tag {
+  height: 40px;
+  width: 10%;
+  margin-left: 2px;
+  border: 2px solid rgb(5, 146, 0);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background: rgb(158, 119, 182);
+}
+
+.add_button_tag:hover {
+  background: green;
+}
+
+.item_total_list {
+  margin-bottom: 30px;
+}
+
+.item_list {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 118, 20, 1) 0%,
+    rgba(255, 84, 17, 1) 100%
+  );
+  border-radius: 10px;
+  margin: 10px 30px 0 30px;
+  padding: 0px 10px 0 10px;
+  align-items: center;
+  color: white;
+}
+
+.each_item_text {
+  justify-content: flex-end;
+  width: 90%;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 28px;
+  word-wrap: break-word;
+}
+
+.each_item_icon {
+  display: block;
+  width: 10%;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+}
+
+.item_list:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(20, 159, 255, 1) 0%,
+    rgba(17, 122, 255, 1) 100%
+  );
+}
