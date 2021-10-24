@@ -2,9 +2,9 @@
 
 
 ## Tools Used :
-### HTML5
+#### HTML5
 #### CSS3
-### JavaScript (React JS)
-### Icons by react-icons
-### Fonts by Google Fonts
+#### JavaScript (React JS)
+#### Icons by react-icons
+#### Fonts by Google Fonts
 
